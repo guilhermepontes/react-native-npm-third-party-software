@@ -1,0 +1,1 @@
+# react-third-party-software-generator
