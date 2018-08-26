@@ -19,7 +19,7 @@
 
   const dependenciePaths = Object.keys(dependencies).map(dependency => (
     `${currentPath}/node_modules/${dependency}`
-  ));
+  ))
 
   const dependenciesInfo = await FileHound.create()
     .paths(dependenciePaths)
